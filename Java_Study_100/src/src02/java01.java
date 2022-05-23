@@ -3,22 +3,22 @@ package src02;
 public class java01 {
 
 	public static void main(String[] args) {
-		System.out.println("µ¥ÀÌÅÍ Å¸ÀÔ");
+		System.out.println("ë°ì´í„° íƒ€ìž…");
 	}
 
 }
 
 
 /*
-[1] : Å©°Ô ºÃÀ» ¶§ --> ±âº»Çü Å¸ÀÔ, ÂüÁ¶Çü Å¸ÀÔ
+[1] : í¬ê²Œ ë´¤ì„ ë•Œ --> ê¸°ë³¸í˜• íƒ€ìž…, ì°¸ì¡°í˜• íƒ€ìž…
 
-[2] : ±âº»Çü Å¸ÀÔ(Primtive Data Type) --> 8°³
-Á¤¼öÇü --> byte(1byte), short(2), int(4), long(8)
-½Ç¼öÇü --> float(4), double(8)
-¹®ÀÚÇü --> char(2byte) --> ¹®ÀÚ ÇÑ°³ --> Âü°í·Î, ¹®ÀÚ¿­À» ´Ù·ç´Â Å¸ÀÔÀº ¾ø´Ù.
-ºÎ¿ïÇü(³í¸®Çü:Âü or °ÅÁþ) --> boolean(1byte) --> true, false
+[2] : ê¸°ë³¸í˜• íƒ€ìž…(Primtive Data Type) --> 8ê°œ
+ì •ìˆ˜í˜• --> byte(1byte), short(2), int(4), long(8)
+ì‹¤ìˆ˜í˜• --> float(4), double(8)
+ë¬¸ìží˜• --> char(2byte) --> ë¬¸ìž í•œê°œ --> ì°¸ê³ ë¡œ, ë¬¸ìžì—´ì„ ë‹¤ë£¨ëŠ” íƒ€ìž…ì€ ì—†ë‹¤.
+ë¶€ìš¸í˜•(ë…¼ë¦¬í˜•:ì°¸ or ê±°ì§“) --> boolean(1byte) --> true, false
 
-[3] : ÂüÁ¶Çü Å¸ÀÔ(Reference Data Type) --> À§ ±âº»Çü¿¡ ¼ÓÇÏÁö ¾Ê´Â µ¥ÀÌÅÍ Çüµé.
-´ëÇ¥ÀûÀÎ °Íµé --> Å¬·¡½º(class), ¹è¿­(array), ÀÎÅÍÆäÀÌ½º(interface), ¹®ÀÚ¿­(String/immutable)
-ÂüÁ¶Çü º¯¼öÀÇ Æ¯Â¡ --> µ¥ÀÌÅÍ°¡ ÀúÀåµÈ ¸Þ¸ð¸®ÀÇ ÁÖ¼Ò °ªÀ» ÀúÀåÇÏ´Â º¯¼öÀÌ´Ù.
+[3] : ì°¸ì¡°í˜• íƒ€ìž…(Reference Data Type) --> ìœ„ ê¸°ë³¸í˜•ì— ì†í•˜ì§€ ì•ŠëŠ” ë°ì´í„° í˜•ë“¤.
+ëŒ€í‘œì ì¸ ê²ƒë“¤ --> í´ëž˜ìŠ¤(class), ë°°ì—´(array), ì¸í„°íŽ˜ì´ìŠ¤(interface), ë¬¸ìžì—´(String/immutable)
+ì°¸ì¡°í˜• ë³€ìˆ˜ì˜ íŠ¹ì§• --> ë°ì´í„°ê°€ ì €ìž¥ëœ ë©”ëª¨ë¦¬ì˜ ì£¼ì†Œ ê°’ì„ ì €ìž¥í•˜ëŠ” ë³€ìˆ˜ì´ë‹¤.
 */
