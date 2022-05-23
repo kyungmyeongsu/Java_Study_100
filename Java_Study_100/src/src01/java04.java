@@ -2,23 +2,23 @@ package src01;
 
 public class java04 {
 
-	/*public static void main2(String[] test) { // argsÀ¸·Î ´ëºÎºÐ »ç¿ëÇÏÁö¸¸ test·Î º¯°æÇÏ¿©µµ ¹®Á¦°¡ µÇÁö ¾Ê´Â´Ù.
+	/*public static void main2(String[] test) { // argsìœ¼ë¡œ ëŒ€ë¶€ë¶„ ì‚¬ìš©í•˜ì§€ë§Œ testë¡œ ë³€ê²½í•˜ì—¬ë„ ë¬¸ì œê°€ ë˜ì§€ ì•ŠëŠ”ë‹¤.
 		System.out.println("Hello World!!");
 	}
-	¿À·ù: src01.java04 Å¬·¡½º¿¡¼­ ±âº» ¸Þ¼Òµå¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù. ´ÙÀ½ Çü½ÄÀ¸·Î ±âº» ¸Þ¼Òµå¸¦ Á¤ÀÇÇÏ½Ê½Ã¿À.
+	ì˜¤ë¥˜: src01.java04 í´ëž˜ìŠ¤ì—ì„œ ê¸°ë³¸ ë©”ì†Œë“œë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤. ë‹¤ìŒ í˜•ì‹ìœ¼ë¡œ ê¸°ë³¸ ë©”ì†Œë“œë¥¼ ì •ì˜í•˜ì‹­ì‹œì˜¤.
 	   public static void main(String[] args)
-	¶Ç´Â JavaFX ¾ÖÇÃ¸®ÄÉÀÌ¼Ç Å¬·¡½º´Â javafx.application.ApplicationÀ»(¸¦) È®ÀåÇØ¾ß ÇÕ´Ï´Ù.
+	ë˜ëŠ” JavaFX ì• í”Œë¦¬ì¼€ì´ì…˜ í´ëž˜ìŠ¤ëŠ” javafx.application.Applicationì„(ë¥¼) í™•ìž¥í•´ì•¼ í•©ë‹ˆë‹¤.
 
 	*/
-	public static void main(String[] test) { // argsÀ¸·Î ´ëºÎºÐ »ç¿ëÇÏÁö¸¸ test·Î º¯°æÇÏ¿©µµ ¹®Á¦°¡ µÇÁö ¾Ê´Â´Ù.
+	public static void main(String[] test) { // argsìœ¼ë¡œ ëŒ€ë¶€ë¶„ ì‚¬ìš©í•˜ì§€ë§Œ testë¡œ ë³€ê²½í•˜ì—¬ë„ ë¬¸ì œê°€ ë˜ì§€ ì•ŠëŠ”ë‹¤.
 		System.out.println("Hello World!!");
 	}
 
 }
 
 /*
-Á¢±ÙÁ¦ÇÑÀÚ Å¬·¡½º¼±¾ð Å¬·¡½ºÀÌ¸§ {
-	Á¢±ÙÁ¦¾îÀÚ static ¹ÝÈ¯Å¸ÀÔ ¸ÞÀÎ¸Þ¼­µå(¹®ÀÚ¿­ ¹è¿­ º¯¼ö¸í){
+ì ‘ê·¼ì œí•œìž í´ëž˜ìŠ¤ì„ ì–¸ í´ëž˜ìŠ¤ì´ë¦„ {
+	ì ‘ê·¼ì œì–´ìž static ë°˜í™˜íƒ€ìž… ë©”ì¸ë©”ì„œë“œ(ë¬¸ìžì—´ ë°°ì—´ ë³€ìˆ˜ëª…){
 	
 	}
 }
@@ -26,13 +26,13 @@ public class java04 {
 
 
 /*
-(1)¸ÞÀÎ¸Þ¼­µå --> main() --> ¸¸¾à ´Ù¸£°Ô ÀÛ¼ºÇÏ¸é ±âº» ¸Þ¼­µå¸¦ Ã£À» ¼ö ¾ø´Ù¶ó°í ¿¡·¯ ¹ß»ý --> ±âº» ¸Þ¼­µå(main) ÀÛ¼ºÇÏ¶ó°í ÇÔ.
-		   --> ÀÚ¹Ù ÇÁ·Î±×·¥ÀÌ ½ÇÇàµÇ¸é Á¦ÀÏ ¸ÕÀú ¸ÞÀÎ ¸Þ¼­µå¸¦ Ã£¾Æ¼­ ½ÇÇà.
-		   --> ±æ°Ô ÀÛ¼ºµÈ ¼Ò½º¿¡¼­ ±× ÇÁ·Î±×·¥ÀÇ ½ÃÀÛÀÌ ¾îµòÁö ¾Ë ¼ö ¾øÀ¸¸é ¾ÈµÇ¹Ç·Î ½ÃÀÛÁ¡À» ¾Ë·ÁÁÖ´Â ¿ëµµ --> entry point --> main()
+(1)ë©”ì¸ë©”ì„œë“œ --> main() --> ë§Œì•½ ë‹¤ë¥´ê²Œ ìž‘ì„±í•˜ë©´ ê¸°ë³¸ ë©”ì„œë“œë¥¼ ì°¾ì„ ìˆ˜ ì—†ë‹¤ë¼ê³  ì—ëŸ¬ ë°œìƒ --> ê¸°ë³¸ ë©”ì„œë“œ(main) ìž‘ì„±í•˜ë¼ê³  í•¨.
+		   --> ìžë°” í”„ë¡œê·¸ëž¨ì´ ì‹¤í–‰ë˜ë©´ ì œì¼ ë¨¼ì € ë©”ì¸ ë©”ì„œë“œë¥¼ ì°¾ì•„ì„œ ì‹¤í–‰.
+		   --> ê¸¸ê²Œ ìž‘ì„±ëœ ì†ŒìŠ¤ì—ì„œ ê·¸ í”„ë¡œê·¸ëž¨ì˜ ì‹œìž‘ì´ ì–´ë”˜ì§€ ì•Œ ìˆ˜ ì—†ìœ¼ë©´ ì•ˆë˜ë¯€ë¡œ ì‹œìž‘ì ì„ ì•Œë ¤ì£¼ëŠ” ìš©ë„ --> entry point --> main()
 		   
-(2)ÆÄ¶ó¹ÌÅÍ½º --> ¸Þ¼­µå(ÇÔ¼ö) È£Ãâ½Ã ÇÏ³ª or µÑ ÀÌ»óÀÇ ÆÄ¸®¹ÌÅÍ °ªÀ» ³Ö¾î¼­ È£ÃâÇÒ ¼ö ÀÖÀ½.
-		   --> ±×·¯ÇÑ ÀÎ¼ö(ÆÄ¶ó¹ÌÅÍ)µéÀÇ °ªÀ» ÀúÀåÇÒ º¯¼ö(¹Ù±¸´Ï)µéÀ» ¸í½Ã.
-		   --> String --> ¹®ÀÚ¿­ --> [] ¹è¿­ --> args --> argument(³íÀÇ, ³íÀï, ¾ðÀï, ¸»´ÙÅù, ÁÖÀå; ÀÎ¼ö, µ¶¸³ º¯¼ö)
-(3)¹ÝÈ¯ÇÒÅ¸ÀÔ --> return type --> ¹ÝÈ¯ÇÒ °ªÀÌ ÀÖ³Ä? ¾ø³Ä? --> ¾øÀ¸¸é void(ºó °ø°£, °øÇãÇÔ, empty)
-		   --> ÀÌ ¸Þ¼­µå(ÇÔ¼ö)´Â È£ÃâÇÏ¸é °á°ú·Î½á Æ¯º°È÷ ¹ÝÈ¯µÇ´Â °ªÀº ¾øÀÌ ¼öÇàµÇ´Â ¸Þ¼­µå.
+(2)íŒŒë¼ë¯¸í„°ìŠ¤ --> ë©”ì„œë“œ(í•¨ìˆ˜) í˜¸ì¶œì‹œ í•˜ë‚˜ or ë‘˜ ì´ìƒì˜ íŒŒë¦¬ë¯¸í„° ê°’ì„ ë„£ì–´ì„œ í˜¸ì¶œí•  ìˆ˜ ìžˆìŒ.
+		   --> ê·¸ëŸ¬í•œ ì¸ìˆ˜(íŒŒë¼ë¯¸í„°)ë“¤ì˜ ê°’ì„ ì €ìž¥í•  ë³€ìˆ˜(ë°”êµ¬ë‹ˆ)ë“¤ì„ ëª…ì‹œ.
+		   --> String --> ë¬¸ìžì—´ --> [] ë°°ì—´ --> args --> argument(ë…¼ì˜, ë…¼ìŸ, ì–¸ìŸ, ë§ë‹¤íˆ¼, ì£¼ìž¥; ì¸ìˆ˜, ë…ë¦½ ë³€ìˆ˜)
+(3)ë°˜í™˜í• íƒ€ìž… --> return type --> ë°˜í™˜í•  ê°’ì´ ìžˆëƒ? ì—†ëƒ? --> ì—†ìœ¼ë©´ void(ë¹ˆ ê³µê°„, ê³µí—ˆí•¨, empty)
+		   --> ì´ ë©”ì„œë“œ(í•¨ìˆ˜)ëŠ” í˜¸ì¶œí•˜ë©´ ê²°ê³¼ë¡œì¨ íŠ¹ë³„ížˆ ë°˜í™˜ë˜ëŠ” ê°’ì€ ì—†ì´ ìˆ˜í–‰ë˜ëŠ” ë©”ì„œë“œ.
 */
