@@ -22,6 +22,35 @@ public class java03 {
 		System.out.println(c); //90
 		System.out.println(d); //10.0
 		System.out.println(e); //A
+		
+		// [4]: 여러개 변수 선언 및 초기화 --> 선언 후 값을 셋팅
+		// [4-1]
+		int w; 								// 에러 X -> 선언만 한 상태에서는 아무러 오류가 없다. 사용했을 때만 오류가 발생할 수 있다.
+		//int x,y,z=900;						// z만 초기화가 되고 x,y는 초기화가 안됨.
+		//System.out.println("[4-1]:"+z);		
+		
+		// [4-2]
+		int x,y,z;
+		x = 700;
+		y = 800;
+		z = 900;
+		System.out.println("[4-2]:"+ x +" - "+ y +" - "+ z);
+		
+		// [4-3]
+		int x1 = 300, y1 = 400, z1 = 500;
+		System.out.println("[4-3]:"+ x1 +" - "+ y1 +" - "+ z1);
+		
+		// [4-4] : 같은 값으로 초기화
+		//String str1, str2, str3 = "korea";
+		//System.out.println(str3);
+		
+		String str1, str2, str3;
+		str1= str2= str3="korea";
+		System.out.println("[4-4] 여러 문자열 변수 한꺼번에 초기화:"+ str1 +" - "+ str2 +" - "+ str3);
+		
+		int i,j,k;
+		i=j=k=100;
+		System.out.println("[4-4] 여러 정수형 변수 한꺼번에 초기화:"+ i +" - "+ j +" - "+ k);
 	}
 
 }
