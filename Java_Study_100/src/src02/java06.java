@@ -22,7 +22,6 @@ public class java06 {
 		System.out.printf( "나는 %d살의 대학생입니다. %d, %d, %d 소숫점 형식 --> %.1f , %.2f , 문자 --> %c , %b %n", b, s, i, l, f, d, c, bl );
 		System.out.printf( "10진수 10은 8진수로는 %o 이고, 16진수로는 %x 이다.", b, 15 );
 		System.out.println();
-
 	}
 
 }
